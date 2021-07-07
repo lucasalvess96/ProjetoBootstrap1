@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-warning">DesignL</h1>
+    <nav>
+        <ul class="nav nav-pills mt-3 bg-warning d-flex justify-content-around mb-3" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#Camisas">Camisas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#Calças">Calças</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#Bermudas">Bermudas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#Sapatos">Sapatos</a>
+              </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div id="Camisas" class="container tab-pane active"><br>
+                <div class="imagens">
+                    <div id="Camisas">
+                        <figure>
+                            <img class="imagenss" src="https://images.unsplash.com/photo-1602810319428-019690571b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHNoaXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- <h3>Camisas</h3> -->
+                <p class="text-info" id="especific">Encontre as mais diversificadas camisas aqui.</p>
+
+                  <!-- ======================Conteu em baixo======================================================== -->
+          <div class="d-flex justify-content-center">
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNoaXJ0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca A</strong>
+              <span>Tamanho M</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$74,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNoaXJ0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca B</strong>
+              <span>Tamanho P</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$198,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1503340588524-222d094c7066?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTMyfHxzaGlydHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca C</strong>
+              <span>Tamanho G</span>
+              <span>Indisponivel</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$98,00</s></button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNoaXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca D</strong>
+              <span>Tamanho PP</span>
+              <span>Esgotado</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$302,00</s></button>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1606724003282-df6ecad297ce?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg4fHxzaGlydHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca E</strong>
+              <span>Tamanho PP</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$998,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1602810316693-3667c854239a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNoaXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca F</strong>
+              <span>Tamanho P</span>
+              <span>Indisponivel</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$56,00</s></button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1497339100210-9e87df79c218?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2hpcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca G</strong>
+              <span>Tamanho GG</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$157,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2hpcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca H</strong>
+              <span>Tamanho M</span>
+              <span>Esgotado</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$302,00</s></button>
+            </div>
+          </div>
+            </div><!--camisas-->
+
+            <div id="Calças" class="container tab-pane fade"><br>
+              <div class="imagens">
+                <div id="Camisas">
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGFudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                    </figure>
+                </div>
+              </div>
+              <!-- <h3>Calças</h3> -->
+              <p class="text-info">Aqui você encotra calças de grandes marcas e varios estilos, confira abaixo.</p>
+
+                <!-- ======================Conteu em baixo======================================================== -->
+          <div class="d-flex justify-content-center">
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGFudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca A</strong>
+              <span>Tamanho 38</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$74,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1590159983013-d4ff5fc71c1d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGFudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca B</strong>
+              <span>Tamanho 36</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$198,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="data:image/jpeg;base64,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"  alt="Paris" width="204" height="136">
+              <strong>Marca C</strong>
+              <span>Tamanho 42</span>
+              <span>Indisponivel</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$98,00</s></button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="data:image/jpeg;base64,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"  alt="Paris" width="204" height="136">
+              <strong>Marca D</strong>
+              <span>Tamanho 32</span>
+              <span>Esgotado</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$302,00</s></button>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBg-dM6vfhIpTGgOfJV5pAOxWt4ZMjRZGaow&usqp=CAU"  alt="Paris" width="204" height="136">
+              <strong>Marca E</strong>
+              <span>Tamanho 35</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$998,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiVRvBREiFwJ3gXloKu4ISXLhZMNBUeI06UQ&usqp=CAU"  alt="Paris" width="204" height="136">
+              <strong>Marca F</strong>
+              <span>Tamanho 44</span>
+              <span>Indisponivel</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$56,00</s></button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXiRuQYknvDDiVNjb_naQFurOeXGIuNKA8w&usqp=CAU"  alt="Paris" width="204" height="136">
+              <strong>Marca G</strong>
+              <span>Tamanho 12</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$157,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA6XfneuO5ldAKnAvw7CnCnt2FsdBvKEWfpQ&usqp=CAU"  alt="Paris" width="204" height="136">
+              <strong>Marca H</strong>
+              <span>Tamanho 37</span>
+              <span>Esgotado</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$302,00</s></button>
+            </div>
+          </div>
+            </div><!--calças-->
+
+            <div id="Bermudas" class="container tab-pane fade"><br>
+              <div class="imagens">
+                <div id="Bermudas">
+                    <figure>
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQxveLv10KWeGsB3gn7kVfEC_mBDvmezZrY7lwN8xq1Nn2MZcUyAKrsGeMuM39kf6CG-JGKTEhgtnVLlKZzvryoZWfLLZ2HLsFbC7D14Eo2fOWbYVAeVoo2Tw&usqp=CAE" alt="">
+                    </figure>
+                </div>
+              </div>
+              <!-- <h3>Bermudas</h3> -->
+              <p class="text-info"><p class="text-info">Aqui você encotra Bermudas de grandes marcas e varios estilos, confira abaixo.</p>.</p>
+                <!-- ======================Conteu em baixo======================================================== -->
+          <div class="d-flex justify-content-center">
+            <div class="d-flex p-3 flex-column"> 
+              <img src="data:image/jpeg;base64,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"  alt="Paris" width="204" height="136">
+              <strong>Marca A</strong>
+              <span>Tamanho 38</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$74,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="data:image/jpeg;base64,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"  alt="Paris" width="204" height="136">
+              <strong>Marca B</strong>
+              <span>Tamanho 36</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$198,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="data:image/jpeg;base64,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"  alt="Paris" width="204" height="136">
+              <strong>Marca C</strong>
+              <span>Tamanho 42</span>
+              <span>Indisponivel</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$98,00</s></button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="data:image/jpeg;base64,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"  alt="Paris" width="204" height="136">
+              <strong>Marca D</strong>
+              <span>Tamanho 32</span>
+              <span>Esgotado</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$302,00</s></button>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwl2aYDTvVdjhqAjqT1CuHWTNLdabLxVP-1w&usqp=CAU"  alt="Paris" width="204" height="136">
+              <strong>Marca E</strong>
+              <span>Tamanho 35</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$998,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3oR8Y8erIaMG6FjlArOlWlctCbbqBAwTtoA&usqp=CAU"  alt="Paris" width="204" height="136">
+              <strong>Marca F</strong>
+              <span>Tamanho 44</span>
+              <span>Indisponivel</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$56,00</s></button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ-AKuLjsOjid4hY7ECUQF88i1fRvrMdO1Lg&usqp=CAU"  alt="Paris" width="204" height="136">
+              <strong>Marca G</strong>
+              <span>Tamanho 12</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$157,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJhhbZr0jNsDLU1s0q3jFGZ-i9Hy3iMlhGjQ&usqp=CAU"  alt="Paris" width="204" height="136">
+              <strong>Marca H</strong>
+              <span>Tamanho 37</span>
+              <span>Esgotado</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$302,00</s></button>
+            </div>
+          </div>
+            </div><!--Bermudas-->
+
+            <div id="Sapatos" class="container tab-pane fade"><br>
+                <div class="imagens">
+                    <div id="Sapatos">
+                        <figure>
+                            <img src="https://images.unsplash.com/photo-1525753609950-724d3715874d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjM1fHxzaG9lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        </figure>
+                    </div>
+                </div><!--imagens-->
+                <!-- <h3>Sapatos</h3> -->
+                <p class="text-info">Sapatos para todos os tipos de ocasioes com os melhores preços e qualidades.</p>
+
+              <!-- ======================Conteu em baixo======================================================== -->
+          <div class="d-flex justify-content-center">
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA1fHxzaG9lc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca A</strong>
+              <span>Tamanho 38</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$74,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2hvZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca B</strong>
+              <span>Tamanho 36</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$198,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNob2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca C</strong>
+              <span>Tamanho 42</span>
+              <span>Indisponivel</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$98,00</s></button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1499013819532-e4ff41b00669?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNob2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca D</strong>
+              <span>Tamanho 32</span>
+              <span>Esgotado</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$302,00</s></button>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1601924638867-3a6de6b7a500?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHNob2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca E</strong>
+              <span>Tamanho 35</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$998,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1520256862855-398228c41684?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHNob2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca F</strong>
+              <span>Tamanho 44</span>
+              <span>Indisponivel</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$56,00</s></button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fHNob2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca G</strong>
+              <span>Tamanho 12</span>
+              <span>Disponivel</span>
+              <button type="button" class="btn btn-primary btn-sm">Preço: R$157,00</button>
+            </div>
+
+            <div class="d-flex p-3 flex-column"> 
+              <img src="https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzN8fHNob2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  alt="Paris" width="204" height="136">
+              <strong>Marca H</strong>
+              <span>Tamanho 37</span>
+              <span>Esgotado</span>
+              <button type="button" class="btn btn-primary btn-sm"><s>Preço: R$302,00</s></button>
+            </div>
+          </div>
+        </div><!--sapatos-->
+      </div>
+    </nav>
+</body>
+</html>
